@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./port.css">
+
+  <!-- Criando titulo do site -->
+  <title>CV Online</title>
+</head>
+
+<body class="page">
+  <!-- Div bem vindo -->
+  <div class="bv" id="bv"></div>
+  <!-- Cria template principal -->
+  <div class="template">
+    <!-- Imagem 'perfil' -->
+    <img class="imgPerfil" src="perfil.port.jpeg">
+    <!-- Titulo -->
+    <h1 style="color: rgb(0, 0, 0); margin-left: 26%;">LETÍCIA ARENS DA LUZ</h1>
+    <h2 style="color:rgb(0, 0, 0); margin-top: -30px; margin-left: 68%; margin-bottom: 
+5px;"><i>_____</i></h2>
+    <hr>
+    <div style="text-align:center; margin-left: 20%; width: 60%; margin-top: 30px;">
+      <!-- Label com minha biografia -->
+      <label class="txt">
+        Me chamo Letícia, curso Analise e Desenvolvimento de Sistemas pela Uninter. Gosto de sair com os amigos, 
+        mas ficar em casa sempre é uma opção também. Tenho paixão pelo esporte desde pequena. <br> <br>
+        Nasci e fui criada na cidade de São Carlos/SC, sempre tive contato com tecnologias, mas o interesse com 
+        programação é recente.
+      </label>
+      <hr style="width: 45%">
+      <!-- Label com minha vida profissional -->
+      <label class="txt">
+        Minha vida profissional teve inicio aos meus 15 anos, onde tive a oportunidade de trabalhar em Consultório
+        Odontológico, onde logo o interesse pela função fez com que eu decidisse buscar curso de Auxiliar de Saúde Bucal,
+        que é meu trabalho hoje. Após 3 anos de atuação na área da saude, vi que eu precisaria me reinventar, buscar algo 
+        que me desafiasse mais, e exigisse mais de mim.<br>
+       
+      </label>
+    </div>
+    <div style="margin-top: 25px;">
+      <!-- Cria os campos com input -->
+      <table class="contato" style="padding: 10px;">
+        <tr>
+          <td class="tdText">
+            Nome para contato:
+          </td>
+          <td>
+            <input id="nome">
+          </td>
+        </tr>
+        <tr>
+          <td class="tdText">
+            Telefone:
+          </td>
+          <td>
+            <input id="telefone">
+          </td>
+        </tr>
+        <tr>
+          <td class="tdText">
+            Endereço:
+          </td>
+          <td>
+            <input id="endereco">
+          </td>
+        </tr>
+        <tr>
+          <td class="tdText">
+            Assunto:
+          </td>
+          <td>
+            <input id="assunto">
+          </td>
+        </tr>
+      </table>
+      <!-- Botao para salvar -->
+      <div class="contato" style="text-align: center; padding-bottom: 20px;">
+        <button class="btnsub" id="btnEnviar">ENVIAR</button>
+      </div>
+    </div>
+    <!-- Tabela com meus contatos -->
+    <table style="margin-left: 20%; margin-right: 20%; width: 70%;">
+      <tr>
+        <td><a href="https://wa.me/5549998023229"><img class="links" src="Whats.port.png"></a></td>
+        <td><a href="https://www.linkedin.com/in/leticia-arens-5b643b23a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="links" src="Linkedin.port.jpg"></a></td>
+      </tr>
+    </table>
+  </div>
+  <!-- div que mostra os alertas de preenchimento dos campos input -->
+  <div class="alert" id="alert" hidden></div>
+</body>
+<script src="./port.js"> </script>
+
+</html>
