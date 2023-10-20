@@ -76,7 +76,9 @@ input {
   position: fixed;
   bottom: 5%;
   right: 5%;
-  color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
 }
 
 .links {
